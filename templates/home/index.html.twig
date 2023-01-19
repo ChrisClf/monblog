@@ -4,15 +4,28 @@
 
 {% block body %}
  <style>
- h1 {
+
+ body {
+
+   background-image: url(https://imgs.search.brave.com/XMMUEI59SMkeQtppNIBCf6UVIMnWrfCnryeGpEWnJ-o/rs:fit:1200:1080:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDEwOTI5/NzY2LmpwZw);
+
+ }
+ h1 { 
+   background-color: red;
+   color: white;
+   font-size: 3em;
+   margin: 0;
+   padding: 0;
    text-align: center;
    position: absolute;
    top: 50%;
    left: 50%;
-   transform: translate(-50%, -50%);
+   transform: translateX(-50%) translateY(-50%);
    border-radius: 10px;
-   padding: 10px;
+
+   
  }
  </style>
-   <h1>Bienvenue sur mon Blog <h1>
+   <h1>Bienvenue sur mon Blog <i class="fa-sharp fa-solid fa-flag-checkered"></i><h1>
+  
 {% endblock %}
